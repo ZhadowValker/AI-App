@@ -1,0 +1,14 @@
+{
+  "name": "github-tools",
+  "version": "0.1.0",
+  "description": "GitHub tool definitions for the AI agent tool loop",
+  "main": "tools/ToolRegistry.ts",
+  "dependencies": {
+    "@octokit/rest": "^21.0.0",
+    "@octokit/graphql": "^8.0.0"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "expo-constants": ">=17.0.0"
+  }
+}

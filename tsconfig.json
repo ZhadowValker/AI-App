@@ -1,0 +1,13 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "provider-engine":   ["./provider-engine/index.ts"],
+      "provider-engine/*": ["./provider-engine/*"],
+      "github-tools":      ["./github-tools/index.ts"],
+      "github-tools/*":    ["./github-tools/*"]
+    }
+  }
+}
